@@ -1,0 +1,63 @@
+label span{
+    color: red;
+}
+input[type=text],input[type=number],input[type=date], textarea {
+    width: 70%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+input[type=radio] {
+    border: 0px;
+    width: 7%;
+}
+
+.but {
+    width:150px;
+    
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+.col-30 {
+    float: left;
+    width: 30%;
+    margin-top: 6px;
+  }
+  
+.col-70 {
+    float: left;
+    width: 70%;
+    margin-top: 6px;
+  }
+
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+
+.contain{
+    border: 1px solid white;
+    position: absolute;
+    top: 25%;
+    left:25%;
+    transform: translate(-50,-50);
+    width:50%;
+    height:auto;
+    padding-top:25px;
+}
+.inner-contain {
+  background-color:#fcfcfc;
+}
+.back {
+  width:43%;
+  font-weight: bold;
+}
+.success {
+  color:rgb(238, 14, 126);
+}
